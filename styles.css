@@ -1,0 +1,161 @@
+
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    background-color: #f8f9fa; /* Légère différence avec la section précédente */
+
+}
+
+
+header {
+    display: flex;
+    justify-content: end; /* aligner les liens à droite */
+    padding: 20px;
+    background-color: #b0c3d6; /* couleur de fond */ 
+    position: fixed;
+    width: 100%;
+
+}
+
+header div a {
+    text-decoration: none;
+    color: black;
+     margin-left: 25px;/*  espacement des liens */
+    font-size: 1.2em;
+    transition: all 0.3s ease-out;
+}
+
+header a:hover {
+    color: #ff6600;
+    font-size: 20px;
+    transform: scale(1.2);
+}
+
+header div {
+    margin-right: 50px;
+}
+
+/* section à propos de moi */
+
+#about {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* section ma passion */
+
+#passion {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 50px;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .social-links a:hover {
+    color: #007bb5;
+}
+
+footer .container p {
+    color: white;
+}
+
+footer .container {
+
+    text-align: center;
+}
+
+#projects .container h1 {
+    text-align: center;
+}
+
+#projects {
+    padding-bottom: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#parcoursTexte {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+    display: none; /* cacher par défaut */
+    opacity:0 ; /* transparence totale */
+    transition: opacity 0.5s ease, max-height 0.5s ease-in-out;
+}
+
+#parcoursTexte.visible {
+    display: block;
+    opacity: 1; /* visible */
+    
+
+}
+
+#parcoursBtn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#parcours {
+    text-align: center;
+}
