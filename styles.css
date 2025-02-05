@@ -159,3 +159,38 @@ button:hover {
 #parcours {
     text-align: center;
 }
+
+
+/* Écrans moyens (tablettes et petits écrans) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        text-align: center;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    #parcoursTexte {
+        font-size: 14px;
+    }
+}
+
+/* Écrans mobiles (smartphones) */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+        width: 100%; /* Largeur complète pour mieux cliquer */
+    }
+
+    #parcoursTexte {
+        font-size: 12px;
+    }
+}
